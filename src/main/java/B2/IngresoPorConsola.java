@@ -6,7 +6,8 @@ import java.util.Scanner;
 
 public class IngresoPorConsola {
     public static void main(String[] args) {
-
+        final String usuarioCorrecto = "mmg";
+        final String passCorrecto = "1234";
         Scanner scanner = new Scanner(System.in);
 
 
@@ -22,9 +23,13 @@ public class IngresoPorConsola {
 
         // Leer una cadena
         scanner.nextLine(); // Consumir el salto de línea pendiente después del número flotante
-        System.out.print("Ingresa una cadena: ");
-        String cadena = scanner.nextLine();
-        System.out.println("Cadena ingresada: " + cadena);
+        System.out.print("Ingresa una Usuario: ");
+        String usser = scanner.nextLine();
+        System.out.print("Ingresa una Contrasena: ");
+        String pass = scanner.nextLine();
+
+
+
 
         // Cerrar el objeto Scanner para liberar recursos
         scanner.close();

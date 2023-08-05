@@ -1,12 +1,14 @@
 package B2;
 
+import B3.Persona;
+
 import javax.swing.*;
 
 public class EjercicioEnClase {
 
     public static void main(String[] args) {
         String inputFin = JOptionPane.showInputDialog(null, "Ingrese el número final:", "Ejercicio For-If", JOptionPane.QUESTION_MESSAGE);
-
+        Persona persona=new Persona();
 
         int inicio = 1;
         int fin = Integer.parseInt(inputFin);
