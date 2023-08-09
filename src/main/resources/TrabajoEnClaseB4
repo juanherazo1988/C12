@@ -1,0 +1,3 @@
+Realizar un programa que divida 2 numeros, si la divicion tiene indeterminacion capturar el error.
+Si el usuario ingresa algo que no sea un numero, capturar el error, si el usuario envia un valor vacio,
+capturar el error, el programa no debe terminar hasta que el usuario lo decida.
